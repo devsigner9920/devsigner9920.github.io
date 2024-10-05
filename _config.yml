@@ -9,3 +9,23 @@ url: https://devsigner9920.github.io
 
 plugins:
   - jekyll-default-layout
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+favicon_ico: "/assets/images/favicon.ico"
+
+collections:
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    tests:
+      name: Tests
+    tutorials:
+      name: Tutorials
